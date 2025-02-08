@@ -4,6 +4,7 @@ import gsap from "gsap";
 import SplitType from "split-type";
 import "./Home.css";
 import HomeVideo from "../assets/videos/homeVideo.mp4";
+import Navigation from "../components/Navigation.js";
 
 function Home() {
     useEffect(() => {
@@ -60,6 +61,7 @@ function Home() {
 
   return (
     <div className="home-wrapper">
+        <Navigation />
         <div className="hero-section">
             <div className="hero-content">
                 <h1>Since 2017, we've helped the most innovative forward-thinking startups and reputable companies design, build, and ship products and user experiences worth talking about.</h1>
